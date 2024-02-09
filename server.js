@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // Connect to MongoDB
-const connectionString = 'mongodb+srv://hanalik:b3W5nwSBZDpfCNH5@cluster0.kzhjubm.mongodb.net/';
+const connectionString = 'mongodb+srv://hanalik:b3W5nwSBZDpfCNH5@cluster0.kzhjubm.mongodb.net/first';
 mongoose.connect(connectionString, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
